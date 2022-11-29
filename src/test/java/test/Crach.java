@@ -15,7 +15,7 @@ public class Crach {
         Configuration.holdBrowserOpen = true;
         open("https://demoqa.com/automation-practice-form");
         // $(byId("firstName")).setValue("Dmitri").pressEnter();
-        $("#firstName").setValue("Dmitro").pressEnter();
+        $("#firstName").setValue("Dmitro");
         $(byId("lastName")).setValue("Ivanov").pressEnter();
         $(byId("userEmail")).setValue("ivanov@mail.com").pressEnter();
         $(byTagAndText("Label", "Male")).click();

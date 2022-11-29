@@ -16,9 +16,9 @@ public class FirstForm {
         Configuration.holdBrowserOpen = true;
         open("https://demoqa.com/automation-practice-form");
         // $(byId("firstName")).setValue("Dmitri").pressEnter();
-        $("#firstName").setValue("Dmitro").pressEnter();
-        $(byId("lastName")).setValue("Ivanov").pressEnter();
-        $(byId("userEmail")).setValue("ivanov@mail.com").pressEnter();
+        $("#firstName").setValue("Dmitro");
+        $(byId("lastName")).setValue("Ivanov");
+        $(byId("userEmail")).setValue("ivanov@mail.com");
         $(byTagAndText("Label", "Male")).click();
         $(byId("userNumber")).setValue("9012223344").pressEnter();
 
